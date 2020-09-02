@@ -20,6 +20,10 @@ const options = {
 
 const client = require('tmi.js').client(options);
 
+setInterval(() => {
+    client.say('Titatitutu' , "Annonce : Titatitutu joue désormais en Ligue 1 de CIV avec la team Ulysse !") // Surement a edit avec l'interface utilisateur ► DB
+}, 300000);
+
 client.on('message' , (channel , user , message , self) => {
     if (self) return;
     
@@ -30,7 +34,7 @@ client.on('message' , (channel , user , message , self) => {
 
     try {
 
-        var commandFile = require(`./commands/${cmd}.js`);
+        var commandFile = require(`./commands/${cmd}.js`); // C'est pas le mieux mais c'est simple à utiliser
         commandFile.run(client , channel , user , message , self , args);
 
     } catch (e) {
