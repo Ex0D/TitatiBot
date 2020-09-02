@@ -1,3 +1,3 @@
 exports.run = (client , channel , user , message , self) => {
-    client.say(channel , 'Bot crée par ex_ode (a 80%) / Gabfuwak / Zykun_');
+    client.say(channel , 'Bot crée par la TitaCorp (https://github.com/Ex0D/TitatiBot)');
 };
