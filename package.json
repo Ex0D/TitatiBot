@@ -4,12 +4,15 @@
   "description": "Bot twitch pour Titatitutu",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm app.js"
   },
   "author": "titacorp",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "lowdb": "^1.0.0",
     "tmi.js": "^1.5.0"
   }
 }
