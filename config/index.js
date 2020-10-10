@@ -8,7 +8,7 @@ const config = {
         username: 'TitatiBot',
         password: process.env.token,
     },
-    channels: ["brecidev"]
+    channels: ["titatitutu"]
     
 }
 
