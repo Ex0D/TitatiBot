@@ -8,7 +8,7 @@ export function getRole(user, channel) {
     
     if (user.mod) return USER_ROLES.MODERATOR
 
-    if (user.badges.vip) return USER_ROLES.VIP
+    if (user.badges && user.badges.vip) return USER_ROLES.VIP
 
     return USER_ROLES.VIEWER
 }

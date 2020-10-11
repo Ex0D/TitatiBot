@@ -26,6 +26,22 @@
     },
     {
       "type": "add-command",
+      "channel": "breci",
+      "prefix": "add",
+      "guards": {
+        "role": "moderator"
+      }
+    },
+    {
+      "type": "remove-command",
+      "channel": "breci",
+      "prefix": "remove",
+      "guards": {
+        "role": "moderator"
+      }
+    },
+    {
+      "type": "add-command",
       "channel": "titatitutu",
       "prefix": "add",
       "guards": {
@@ -40,6 +56,14 @@
       "guards": {
         "role": "moderator",
         "allowlist": "ex_ode"
+      }
+    },
+    {
+      "type": "text",
+      "channel": "breci",
+      "prefix": "hello",
+      "data": {
+        "text": "coucou c'est moi"
       }
     }
   ]

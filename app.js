@@ -40,7 +40,7 @@ client.on('message' , (channel , user , message , self) => {
     if(message.startsWith(PREFIX)){
         const args = message.slice(PREFIX.length).trim().split(/ +/g);
         const cmd  = args.shift().toLowerCase();
-        runCommand(cmd,channel, role,...args)
+        runCommand(cmd,channel.replace('#',''), role,...args)
     }
 
 });
