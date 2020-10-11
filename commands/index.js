@@ -1,4 +1,1 @@
-import {commands,addCommand,removeCommand} from './manager'
-
-
-export default commands
+export {commands,addCommand,removeCommand} from './manager'
