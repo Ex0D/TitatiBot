@@ -31,9 +31,6 @@ client.on('message' , (channel , user , message , self) => {
     if (self) return;
     
     const role = getRole(user,channel)
-    
-    const args = message.slice(PREFIX.length).trim().split(/ +/g);
-    const cmd  = args.shift().toLowerCase();
 
     if(cmd.includes('\\') || cmd.includes('.') || cmd.includes('/')) return;
     
