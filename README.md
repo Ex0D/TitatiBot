@@ -1,19 +1,18 @@
 # TitatiBot
- Source code pour le bot Twitch de [Titatitutu](https://www.twitch.tv/titatitutu)
+Source code for the Twitch bot of [Titatitutu](https://www.twitch.tv/titatitutu)
 
 ## Install
-* Télécharger le repo sous un .zip (ou le setup via git / github desktop)
+* Download the repo under a .zip (or setup via git / github desktop)
 
-* Une fois dezipé , ouvrez un cmd puis naviguez directement dans le dossier
+* Once unzipped, open a cmd then navigate directly into the folder
 
-* Faites toutes les modifications nécessaires (.env , changement de nom de commandes ect...)
+* Make all necessary changes (.env , config.json ect...)
 
-* Faite un `npm i` (Je recommande d'utiliser [nodemon](https://www.npmjs.com/package/nodemon) pour recharger son bot a chaque modification et [pm2](https://www.npmjs.com/package/pm2) pour gérer le bot)
-
+* Do an `npm i` (I recommend to use [nodemon](https://www.npmjs.com/package/nodemon) to reload your bot at each modification and [pm2](https://www.npmjs.com/package/pm2) to manage the bot)
 
 ## Run bot
 `npm run start`
 
 ## Contribute
 
-* Bien évidemment si vous voulez contribuer d'une façon ou d'une autre les pull requests sont ouvertes !
+* Of course if you want to contribute in any way the pull requests are open !
