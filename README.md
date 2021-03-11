@@ -1,7 +1,9 @@
-# TitatiBot
+# REWORK IN PROGRES...
+
+## TitatiBot
 Source code for the Twitch bot of [Titatitutu](https://www.twitch.tv/titatitutu)
 
-## Install
+### Install
 * Download the repo under a .zip (or setup via git / github desktop)
 
 * Once unzipped, open a cmd then navigate directly into the folder
@@ -10,7 +12,7 @@ Source code for the Twitch bot of [Titatitutu](https://www.twitch.tv/titatitutu)
 
 * Do an `npm i` (I recommend to use [nodemon](https://www.npmjs.com/package/nodemon) to reload your bot at each modification and [pm2](https://www.npmjs.com/package/pm2) to manage the bot)
 
-## Run bot
+### Run bot
 `npm run start`
 
 ## Contribute
