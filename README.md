@@ -3,6 +3,8 @@
 ## TitatiBot
 Source code for the Twitch bot of [Titatitutu](https://www.twitch.tv/titatitutu)
 
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/Ex0D/TitatiBot.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Ex0D/TitatiBot/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/Ex0D/TitatiBot.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Ex0D/TitatiBot/context:javascript)
 ### Install
 * Download the repo under a .zip (or setup via git / github desktop)
 
