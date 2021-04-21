@@ -1,5 +1,3 @@
-# REWORK IN PROGRESS...
-
 ## TitatiBot
 Source code for the Twitch bot of [Titatitutu](https://www.twitch.tv/titatitutu)
 
